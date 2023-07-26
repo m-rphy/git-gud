@@ -28,3 +28,20 @@ This is a repo for introducing git commands and gitHub
 **Checkinig on your remote branched**
 
 `git remote -v`
+
+**Check branches on your machine**
+
+`git branch`
+
+**Check out another branch**
+
+`git checkout <branch>` for existing branches
+`git checkout -b <branch>` for a new branch
+
+**Add a link to a remote repository**
+
+`git remote add <remote name> <URL>`
+
+**Get changes (pull down) from a remote repository**
+
+`git pull` or `git pull <remote> <branch>` -> git pull partner main
